@@ -1,0 +1,40 @@
+<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:JControllibrary">
+    <ResourceDictionary.MergedDictionaries>
+        <!--<ResourceDictionary Source="pack://application:,,,/JControllibrary;component/Themes/Resource/Shadows.xaml" />-->
+        <ResourceDictionary Source="pack://application:,,,/JControllibrary;component/Themes/Brushes/OrangeBrushes.xaml"/>
+        <!--<ResourceDictionary Source="pack://application:,,,/JControllibrary;component/Themes/Brushes/DarkBrushes.xaml"/>-->
+        <ResourceDictionary Source="pack://application:,,,/JControllibrary;component/Themes/JListBox.xaml"/>
+        <ResourceDictionary Source="pack://application:,,,/JControllibrary;component/Themes/JGroupBox.xaml"/>
+        <!--<ResourceDictionary Source="pack://application:,,,/JControllibrary;component/Themes/JScrollBar.xaml"/>-->
+        <!--<ResourceDictionary Source="pack://application:,,,/JControllibrary;component/Themes/HollowPanel.xaml"/>-->
+        <!--<ResourceDictionary Source="pack://application:,,,/JControllibrary;component/Themes/EffectPanel.xaml"/>-->
+        <ResourceDictionary Source="pack://application:,,,/JControllibrary;component/Themes/JCheckBox.xaml"/>
+        <ResourceDictionary Source="pack://application:,,,/JControllibrary;component/Themes/JComboBox.xaml"/>
+        <ResourceDictionary Source="pack://application:,,,/JControllibrary;component/Themes/JComboBoxItem.xaml"/>
+        <ResourceDictionary Source="pack://application:,,,/JControllibrary;component/Themes/JButton.xaml"/>
+    </ResourceDictionary.MergedDictionaries>
+    <!--<Style BasedOn="{StaticResource ScrollBarStyle2}" TargetType="{x:Type ScrollBar}">
+    </Style>-->
+    
+    <Style BasedOn="{StaticResource GroupBoxStyle1}" TargetType="{x:Type GroupBox}">
+    </Style>
+   
+    <!--<Style TargetType="{x:Type Label}">
+        <Setter Property="Foreground" Value="{DynamicResource PanelForegroundBrush}"/>
+    </Style>-->
+    <Style BasedOn="{StaticResource ComboBoxStyle1}" TargetType="{x:Type ComboBox}">    
+    </Style>
+    <Style BasedOn="{StaticResource ComboBoxItemStyle1}" TargetType="{x:Type ComboBoxItem}">
+    </Style>
+    <Style BasedOn="{StaticResource ButtonStyle1}" TargetType="{x:Type Button}">  
+    </Style>
+
+    <Style BasedOn="{StaticResource ListBoxStyle1}" TargetType="{x:Type ListBox}">
+    </Style>
+    
+    <Style BasedOn="{StaticResource CheckBoxStyle1}" TargetType="CheckBox"/>
+
+</ResourceDictionary>
